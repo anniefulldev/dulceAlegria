@@ -11,7 +11,7 @@ html{
     src: url(../fuentes/fredoka-variable.ttf);
 }
 footer, header{
-    background-color: rgb(234,211,167);
+    background-image: url(../media/portada.png);
     text-align: center;
     padding: 2rem;
     margin: 1rem;
@@ -147,6 +147,7 @@ fieldset{
     font-family: fredoka;
     font-size: 3rem;
     color: rgb(97, 76, 80);
+    text-align: center;
 }
 iframe,
 video{
@@ -168,6 +169,12 @@ form{
     padding: 2rem;
     border: 1rem;
 }
+img{
+    border: 1rem;
+    color: rgb(255,163,166);
+    border-radius: 30%;
+    border-style: solid;
+}
 .flex1{
     display: flex;
     flex-direction: row;
@@ -185,4 +192,10 @@ form{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.flexImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
