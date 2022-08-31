@@ -1,0 +1,188 @@
+* {
+    margin:0;
+    padding:0;
+}
+html{
+    background-color: rgb(255,245,201);
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: fredoka;
+    src: url(../fuentes/fredoka-variable.ttf);
+}
+footer, header{
+    background-color: rgb(234,211,167);
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1rem;
+    overflow: hidden;
+}
+.menu{
+    text-align: center;
+    padding: 1rem;
+    border: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+.enlacesfooter{
+    text-align: center;
+    padding: 1rem;
+    border: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+main{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1rem;
+}
+a{
+    text-decoration: none;
+    font-family: fredoka;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(97, 76, 80);
+    background-color: rgb(148,193,186);
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+        
+}
+a:hover{
+    background-color: rgb(255,163,166);
+}
+.parallax1{
+    background-image: url("../media/torta\ frutas.jpg");
+    height: 30rem;
+    width: 65rem;
+    margin: 1rem;
+    padding: 5rem;
+    border: 1rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.parallax2{
+    background-image: url("../media/torta\ choco.jpg");
+    height: 40rem;
+    margin: 1rem;
+    padding: 5rem;
+    border: 1rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(255,163,166);
+    text-align: center;
+    font-size: 6rem;
+    font-family: "fredoka";
+}
+.parallax3{
+    background-image: url("../media/tiramisufrutilla.jpg");
+    height: 40rem;
+    width: 75rem;
+    margin: 1rem;
+    padding: 5rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.tortaredvelvet, 
+.tartadurazno, 
+.donaschocolate{
+    margin: 2rem;
+    padding: 1rem;
+    border: 1rem;
+    
+}
+.imgproductos{
+    height: 40rem;
+    width: 75rem;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1rem;
+}
+ul{
+    list-style-type: none;
+    font-size: 0;
+    padding: 0;
+}
+li{
+    background-color: rgb(148,193,186);
+    display: inline-block;
+    width: 20%;
+    position: relative;
+}
+.tituloPag{
+    align-content: center;
+    font-family: fredoka;
+    font-size: 6rem;
+    color: rgb(97, 76, 80);
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+p{
+    font-family: fredoka;
+    font-size: 5rem;
+    color: rgb(97, 76, 80);
+    margin: 1rem;
+    padding: 3rem;
+    display: inline;
+    text-align: center;
+}
+
+h3{
+    font-family: fredoka;
+    font-size: 6rem;
+    color: rgb(97, 76, 80);
+    margin: 1rem;
+    padding: 1rem;
+    border: 1rem;
+}
+fieldset{
+    font-family: fredoka;
+    font-size: 3rem;
+    color: rgb(97, 76, 80);
+}
+iframe,
+video{
+    height: 40rem;
+    width: 75rem;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1rem;
+}
+.imgform{
+    height: 25rem;
+    width: 40rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1rem;
+}
+form{
+    margin: 2rem;
+    padding: 2rem;
+    border: 1rem;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
